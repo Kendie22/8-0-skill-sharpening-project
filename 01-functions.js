@@ -10,7 +10,7 @@
  *  //> true
  */
 function alwaysTrue() {
-  return true;
+  return true
 }
 
 /**
@@ -28,6 +28,7 @@ function alwaysTrue() {
  */
 function greet(name) {
   return `Hello, ${name}.`
+
 }
 
 /**
@@ -44,7 +45,7 @@ function greet(name) {
  *  //> 30
  */
 function add(a, b) {
-  return a + b 
+  return a + b;
 }
 
 /**
@@ -60,8 +61,8 @@ function add(a, b) {
  *  multiply(2, 5);
  *  //> 10
  */
-function multiply(a,b) {
-  return a * b
+function multiply(a, b) {
+  return a * b;
 }
 
 /**
@@ -82,10 +83,8 @@ function multiply(a,b) {
  *  average(10, 6);
  *  //> 8 // 10 + 6 = 16; 16/2 = 8;
  */
-function average(a,b) {
-  let sum = a + b 
- 
-  return sum / 2
+function average(a, b) {
+  return (a + b) / 2;
 }
 
 /**
@@ -105,8 +104,8 @@ function average(a,b) {
  *  averageThree(10, 11, 19);
  *  //> 10 // 10 + 11 + 19 = 30; 30 / 3 = 10;
  */
-function averageThree(a,b,c) {
-  return (a + b + c)/3
+function averageThree(a, b, c) {
+  return (a + b + c) / 3;
 }
 
 /**
@@ -126,13 +125,8 @@ function averageThree(a,b,c) {
  *  compareTypes("left", 10);
  *  //> false
  */
-function compareTypes(a,b) {
-  if (typeof a === typeof b) {
-  return true;
-} else {
-  return false;
-}
-}
+function compareTypes(a, b) {}
+
 /**
  * flipSign()
  * ---------------------
@@ -150,9 +144,7 @@ function compareTypes(a,b) {
  *  flipSign(50);
  *  //> -50
  */
-function flipSign(a) {
-  return -a
-}
+function flipSign(a) {}
 
 /**
  * joinStringsWithSpaces()
@@ -172,9 +164,7 @@ function flipSign(a) {
  *  joinStringsWithSpaces("left", "right", "up", "down", "away");
  *  //> "left right up down away"
  */
-function joinStringsWithSpaces(a,b,c,d,e) {
-  return a + " " + b + " " + c + " " + d + " " + e
-}
+function joinStringsWithSpaces(a, b, c, d, e) {}
 
 /**
  * getFirstAndLastCharacter()
@@ -192,9 +182,7 @@ function joinStringsWithSpaces(a,b,c,d,e) {
  *  //> "us"
  */
 function getFirstAndLastCharacter(a) {
-  let firstLetter = a.charAt(a);
-  let lastLetter = a.charAt(a.length-1);
-  return firstLetter + lastLetter
+  return a[0] + a[a.length - 1];
 }
 
 // Do not change the code below.
